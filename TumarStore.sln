@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TumarStore", "TumarStore\TumarStore.csproj", "{042867D4-EAA5-483E-8A02-3A654ECE7A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{FEBAF511-79C7-4A16-91F5-A62241AF6C86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{042867D4-EAA5-483E-8A02-3A654ECE7A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042867D4-EAA5-483E-8A02-3A654ECE7A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042867D4-EAA5-483E-8A02-3A654ECE7A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042867D4-EAA5-483E-8A02-3A654ECE7A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBAF511-79C7-4A16-91F5-A62241AF6C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBAF511-79C7-4A16-91F5-A62241AF6C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBAF511-79C7-4A16-91F5-A62241AF6C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBAF511-79C7-4A16-91F5-A62241AF6C86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F462DC9-8A81-484A-9C72-B6FE2C6BC40B}
+	EndGlobalSection
+EndGlobal
