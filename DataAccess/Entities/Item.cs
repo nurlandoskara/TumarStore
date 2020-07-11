@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace DataAccess.Entities
@@ -11,5 +12,6 @@ namespace DataAccess.Entities
         public int ItemTypeId { get; set; }
         public ItemType ItemType { get; set; }
         public ICollection<Price> Prices { get; set; }
+        public int Price => Prices.Where(x => !x.IsDeleted).OrderByDescending(x => x.UpdatedDate).First().Value;
     }
 }

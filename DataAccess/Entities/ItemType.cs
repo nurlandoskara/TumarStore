@@ -8,5 +8,7 @@ namespace DataAccess.Entities
     {
         public string Name { get; set; }
         public string Description { get; set; }
+        public int ParentItemTypeId { get; set; }
+        public ItemType ParentItemType { get; set; }
     }
 }

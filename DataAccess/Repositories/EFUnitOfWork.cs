@@ -11,6 +11,7 @@ namespace DataAccess.Repositories
         private ItemRepository itemRepository;
         private PriceRepository priceRepository;
         private ItemTypeRepository itemTypeRepository;
+        private OrderRepository orderRepository;
 
         public EFUnitOfWork(string connectionString)
         {
@@ -43,6 +44,16 @@ namespace DataAccess.Repositories
                 if (itemTypeRepository == null)
                     itemTypeRepository = new ItemTypeRepository(db);
                 return itemTypeRepository;
+            }
+        }
+
+        public IRepository<Order> Orders
+        {
+            get
+            {
+                if (orderRepository == null)
+                    orderRepository = new OrderRepository(db);
+                return orderRepository;
             }
         }
 

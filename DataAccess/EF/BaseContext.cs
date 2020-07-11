@@ -17,5 +17,6 @@ namespace DataAccess.EF
         public DbSet<Item> Items { get; set; }
         public DbSet<ItemType> ItemTypes { get; set; }
         public DbSet<Price> Prices { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }

@@ -8,6 +8,7 @@ namespace DataAccess.Interfaces
         IRepository<Item> Items { get; }
         IRepository<ItemType> ItemTypes { get; }
         IRepository<Price> Prices { get; }
+        IRepository<Order> Orders { get; }
         void Save();
     }
 }
